@@ -1,0 +1,10 @@
+#Mary McDonagh, 25/03/2018
+#Format iris data set
+
+print ("Petal Length", "Petal Width", "Sepal Length", "Sepal Width")
+
+with open("data/iris.csv") as f:
+    
+  for line in f:
+    a = line.split(',')
+    print (a[0], a[1], a[12], a[3])
